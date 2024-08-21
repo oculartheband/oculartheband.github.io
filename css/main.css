@@ -1,0 +1,21 @@
+html, body {
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  background-color: black;
+}
+
+.center-flex {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.logo {
+  width: 300px; /* Set the desired width in pixels */
+  height: auto; /* Maintain aspect ratio */
+}
